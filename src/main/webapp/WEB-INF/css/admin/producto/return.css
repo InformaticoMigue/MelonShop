@@ -1,0 +1,19 @@
+.return{
+    background: transparent;
+    box-shadow: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.return button {
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.25s ease-in;
+    background: transparent;
+    color: black;
+}
+
+.return button:hover {
+    transform: translateY(-3px);
+}

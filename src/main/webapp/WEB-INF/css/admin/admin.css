@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.admin {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+.admin button, .crear button, .acciones button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    height: 7rem;
+    font-size: 1.5rem;
+    transition: transform 0.25s ease-in;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+.crear {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    font-size: 25px;
+    height: 100px;
+    gap: 20px;
+}

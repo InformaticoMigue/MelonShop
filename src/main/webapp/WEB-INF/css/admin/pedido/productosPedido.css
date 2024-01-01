@@ -1,0 +1,19 @@
+.container {
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.headers {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    font-weight: bold;
+}
+.content{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
