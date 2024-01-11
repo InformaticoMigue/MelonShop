@@ -117,9 +117,7 @@ public class CarritoServlet extends HttpServlet {
                     req.getSession().removeAttribute("carrito");
                     resp.sendRedirect(req.getContextPath()+"/tienda");
                 }
-            }
-        RequestDispatcher rd = req.getRequestDispatcher("/WEB-INF/jsp/tienda/carrito.jsp");
-        rd.forward(req,resp);
+        }
     }
 
     @Override

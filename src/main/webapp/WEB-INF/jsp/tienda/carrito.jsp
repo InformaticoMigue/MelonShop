@@ -76,9 +76,16 @@
 </section>
 
 <%@include file="../frag/footer.jsp"%>
-<script src="https://kit.fontawesome.com/0d6cc8454f.js" crossorigin="anonymous"></script>
 <script src="https://cdn.tailwindcss.com"></script>
-
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+            }
+        }
+    }
+</script>
+<script src="https://kit.fontawesome.com/0d6cc8454f.js" crossorigin="anonymous"></script>
 </body>
 </html>
 

@@ -29,15 +29,7 @@
             background-position: center center;
         }
     </style>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                }
-            }
-        }
-    </script>
+
     <section class="flex items-center px-20 w-full">
         <article class="w1/4">
             <img class="w-60" src="<%=request.getContextPath()%>/img/logo.png" alt="">
@@ -152,6 +144,15 @@
             </article>
         </article>
     </section>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                }
+            }
+        }
+    </script>
 
     <%@include file="WEB-INF/jsp/frag/footer.jsp" %>
 
@@ -190,15 +191,7 @@
             background-position: center center;
         }
     </style>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-            tailwind.config = {
-            theme: {
-        extend: {
-        }
-    }
-        }
-    </script>
+
     <section class="flex items-center px-20 w-full">
         <article class="w1/4">
             <img class="w-60" src="<%=request.getContextPath()%>/img/logo.png" alt="">
@@ -318,6 +311,15 @@
 
     <%@include file="WEB-INF/jsp/frag/footer.jsp" %>
 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                }
+            }
+        }
+    </script>
 <script src="https://kit.fontawesome.com/0d6cc8454f.js" crossorigin="anonymous"></script>
 
 </body>
